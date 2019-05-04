@@ -1,63 +1,24 @@
 /* Bio, Contact, Index */
-
-.fixed-header {
-  width: 100%;
-  position: fixed;        
-  padding: 0px;
-  top: 0;
-  left: 0;
-  background-color: white;
-  color: #777777;
-  font-weight: bold;
-  border-bottom: #cccccc;
-  border-bottom-style: solid;
-}
-
-header {
-  width: 100%;
-  height: auto;
-  border-bottom: 3px solid #cccccc;
-  background-color: white;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.name {
-  float: left;
-  margin: 0 340px 0 340px;
-  background-color: #4aaaa5;
-  color: white;
+@media (min-width: 576px) {
+@media (min-width: 768px) { 
+@media (min-width: 992px) { 
+ 
+.navbar-brand {
+  margin:0 0 0 400px;
+  font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.nav {
-  background-color: white;
-  margin: 0 340px 0 340px;
-  list-style-type: none;
-  text-align: right;
-  padding: 0;
-}
-
-.nav li {
-  display: inline-block;
-  font-size: 15px;
-  padding: 20px;
-  margin: 0;
-}  
-
-.list {
+  background-color: #4aaaa5;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color:black;
 }
 
-.container1 {
+.nav-item1 {
+  margin: 0 0 0 700px;
+}
+
+.container {
   background-color: white;
-  margin: 140px 340px 140px 340px;
-  padding: 10px 10px 10px 10px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 2;
@@ -68,11 +29,18 @@ h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-bottom: #cccccc;
   border-bottom-style: solid;
+  
  }
 
-.float-img {
+ .row3 {
+   margin: 0, 0, 0, 10px;
+ }
+
+ .img-fluid {
   float: left;
-  margin-right: 10px;
+  margin-right: 0px;
+  margin-left: 10px;
+  margin-top: 0px;
   margin-bottom: 5px;
 }
 
@@ -81,74 +49,34 @@ h2 {
   position: fixed;        
   padding: 10px;
   bottom: 0;
-  left: 0px;
+  left: 0;
   background: #666666;
   color: white;
   text-align: center;
   border-top: 8px solid #4aaaa5;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 body {
-  background-image: url(file:///C:/Users/pamel/Responsive-Portfolio/symphony.png)
+  background-image: url(file:///C:/Users/pamel/Basic-Portfolio/Assets/images/symphony.png)
 }
 
-/* Contact Specific*/
-
-input[type=text], textarea {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #4aaaa5;
-  border-bottom: #cccccc;
-  border-bottom-style: solid;
-}
-
-/* Index Specific*/
-
-.box{
-  position: relative;
-  display: inline-block; 
+.btn-primary {
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
 }
 
 h3 {
-  background-color: #4aaaa5;
-  position: absolute;
-  margin: 10px auto;
-  left: 0;
-  right: 0;        
-  text-align: center;
-  top: 60%; 
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
-  width: 100%; 
-  height: 30%;
+  background-color: #4aaaa5;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
-@media (max-width: 980px) {
+.col {
+  margin: 0 0 0 50px;
+}
 
 }
-@media (max-width: 768px) {
-
-}
-@media (max-width: 640px) {
-.fixed-header {
-  position: static;
 }
 }
