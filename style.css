@@ -141,5 +141,14 @@ h3 {
   height: 30%;
 }
 
+@media (max-width: 980px) {
 
+}
+@media (max-width: 768px) {
 
+}
+@media (max-width: 640px) {
+.fixed-header {
+  position: static;
+}
+}
